@@ -1,0 +1,460 @@
+@import url("https://fonts.google.com/specimen/Fraunces");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fraunces' sans-serif;
+}
+.main-section{
+    background: url("img/image-header.jpg");
+    background-repeat: no-repeat;  
+    background-size: 100% auto ;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+   
+}
+.main-section header{
+    padding: 20px;
+    display: flex;
+    /* gap: 100%; */
+        
+}
+#hamburger{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.navlink{
+      visibility: hidden;  
+     
+}
+ .main-section .navlink2{
+     position: absolute; 
+     top: 5em;
+    background-color: white;
+    padding: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    z-index: 1;
+    visibility: visible;
+}
+.navlink2 a{
+    text-decoration: none;
+    font-size: 2em;
+    line-height: 2.5;
+    color: hsl(167,40%,24%);
+}
+.navlink2 a:hover{
+    background-color: hsl(51, 100%, 49%);
+        border-radius: 15%;
+        padding: 10px 10px;
+    
+
+}
+.main-section h1{
+    color: white;
+    font-weight: 900;
+    letter-spacing: 10px;
+    font-size: 3.5em;
+    padding: 70px 20px;
+}
+.main-section #arrow{
+    padding-bottom: 100px;
+}
+
+
+
+.body img{     
+    width: 100%;
+}
+.text-container{
+    text-align: center;
+    padding: 50px 20px;
+    
+}
+.text-container h2{
+    font-size: 3em;
+}
+.text-container p{
+    padding: 30px 0;
+    line-height: 1.5;
+    font-size: 1.4em;
+}
+.text-container a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.graphic{
+     position: relative; 
+}
+
+.graphic .text-container2{
+    position: absolute;
+    top: 65%;
+    text-align: center;
+    padding: 0 20px;
+}
+.text-container2 h3{
+    font-size: 3em;
+}
+.text-container2 p{
+    padding: 30px 0;
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+.testimonies{
+    padding: 50px 25px ;
+    align-items: center;
+    text-align: center;
+   
+}
+.testimonies .text-container{
+    text-align: center;
+    padding: 20px 0;
+}
+.testimonies img{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    margin-top: 70px;
+    overflow: hidden;
+}
+.testimonies h2{
+    font-size: 1.5em;
+}
+.testimonies h3{
+    letter-spacing: 4px;
+    font-size: 1.5em;
+}
+.image-container{
+    display: flex;
+}
+.image-container img{
+    width: 100%;
+}
+footer{
+    background-color: hsl(168, 87%, 43%); 
+    padding: 30px ;
+    text-align: center;
+    
+    
+}
+.navitem{
+    display: flex;
+    gap: 80px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: hsl(168, 94%, 21%); 
+    font-size: 1.4em;
+    font-weight: 500;
+    
+
+    
+}
+footer a:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer-img{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px;
+}
+.footer-img img{
+    width: 10%;
+}
+.footer-img img:hover{
+    background-color: white;
+    cursor: pointer;
+}
+footer h2{
+    font-size: 2.5em;
+    padding-bottom: 30px;
+    color: hsl(167, 83%, 19%);
+    font-weight: 900;
+}
+.desktop{
+    display: none;
+}
+.mobile{
+    display: block;
+}
+hr{
+    width: 31%;
+    height: 5px;
+    border: none;
+    margin-left: 130px;
+    
+}
+.red{
+    background-color: #fe7764;
+}
+.yellow{
+    background-color: #ffd101;
+}
+.img-container{
+    display: none;
+}
+@media (min-width:600px) and (max-width:1115px) {
+    .main-section{
+        background: url("img/desktop/image-header.jpg");
+        background-repeat: no-repeat;  
+        background-size: 100% auto ;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+       
+    }
+    .desktop{
+        display: block;
+
+    }
+    .mobile{
+        display: none;
+    }
+
+    #hamburger{
+        visibility: hidden;
+} 
+.main-section header{
+    padding: 20px 50px;
+    display: flex;
+    gap: 45%;
+}
+.navlink{
+    visibility: visible;
+    display: flex;
+    gap: 25%;
+}
+.navlink a{
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+}
+.navlink a:hover{
+    cursor: pointer;
+    background-color: rgba(128, 164, 243, 0.753);
+    border-radius: 15%;
+        padding: 10px 20px;
+   
+} 
+.main-section h1{
+    color: white;
+    font-weight: 900;
+    letter-spacing: 10px;
+    font-size: 2.5em;
+    padding: 50px 100px;
+}
+.main-section #arrow{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.first-container{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.first-container img, .first-container  .text-container{
+    width: 50%;
+}
+.second-container img, .second-container .text-container {
+    width: 50%;
+}
+.second-container{
+    display: flex;
+}
+.third-container{
+    display: flex;
+}
+.third-container .graphic{
+    width: 50%;
+
+}
+
+.first-container .text-container, .second-container .text-container{
+    padding:150px 55px;
+    text-align: left;
+}
+.testimonies-container{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.graphic .text-container2{
+    padding: 0 90px;
+    top: 55%;
+}
+.text-container2 h3{
+    font-size: 2em;
+}
+.text-container p{
+    padding: 30px 0;
+    line-height: 1.5;
+    font-size: 1em;
+}
+
+.img-container{
+    display: flex;
+}
+.img-container img{
+    width: 25%;
+}
+.image-container{
+    display: none;
+}
+footer{
+    background-color: hsl(168, 87%, 43%); 
+    padding: 30px 300px ;
+    text-align: center;
+    
+    
+}
+
+.wrapper img{
+    width: 20%;
+    height: 20%;
+    background-size: cover;
+}
+hr{
+    width: 29%;
+        margin-left: 0;
+        
+    
+}
+
+
+}
+@media screen and (min-width:1116px) {
+    .main-section{
+        background: url("img/desktop/image-header.jpg");
+        background-repeat: no-repeat;  
+        background-size: 100% auto ;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+       
+    }
+    .desktop{
+        display: block;
+
+    }
+    .mobile{
+        display: none;
+    }
+
+    #hamburger{
+        visibility: hidden;
+}
+.main-section header{
+    padding: 20px 50px;
+    display: flex;
+    gap: 62%;
+}
+.navlink{
+    visibility: visible;
+    display: flex;
+    gap: 25%;
+}
+.navlink a{
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+}
+.navlink a:hover{
+    cursor: pointer;
+    background-color: #1da5e8;
+    border-radius: 15%;
+    padding: 10px 20px;
+
+}
+.main-section h1{
+    color: white;
+    font-weight: 900;
+    letter-spacing: 10px;
+    font-size: 3.5em;
+    padding: 50px 100px;
+}
+.main-section #arrow{
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.first-container{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.first-container img, .first-container  .text-container{
+    width: 50%;
+}
+.second-container img, .second-container .text-container {
+    width: 50%;
+}
+.second-container{
+    display: flex;
+}
+.third-container{
+    display: flex;
+}
+.third-container .graphic{
+    width: 50%;
+
+}
+
+.first-container .text-container, .second-container .text-container{
+    padding:150px 75px;
+    text-align: left;
+}
+.testimonies-container{
+    display: flex;
+    gap: 20px;
+    padding: 0 70px;
+    
+}
+
+.graphic .text-container2{
+    padding: 0 150px;
+}
+.img-container{
+    display: flex;
+}
+.img-container img{
+    width: 25%;
+}
+.image-container{
+    display: none;
+}
+footer{
+    background-color: hsl(168, 87%, 43%); 
+    padding: 30px 500px ;
+    text-align: center;
+    
+    
+}
+
+.wrapper img{
+    width: 20%;
+    height: 20%;
+    background-size: cover;
+}
+hr{
+    width: 21%;
+    margin-left: 0;
+    
+}
+
+
+
+}
