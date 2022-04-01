@@ -83,7 +83,7 @@ body{
 .text-container p{
     padding: 30px 0;
     line-height: 1.2;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 .text-container a{
     text-decoration: none;
@@ -193,7 +193,7 @@ hr{
     width: 31%;
     height: 5px;
     border: none;
-    margin-left: 130px;
+    margin-left: 100px;
     
 }
 .red{
